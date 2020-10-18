@@ -47,6 +47,10 @@ a:hover {
 
 .index-left {
     background: rgb(212, 208, 208);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .index-right {
@@ -55,4 +59,10 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/* FOOTER */
+
+.copyright {
+    font-size: 0.75rem;
 }

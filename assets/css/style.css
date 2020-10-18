@@ -12,11 +12,43 @@ a:hover {
     color: #212529;
 }
 
+/* BRAND */
+
 #brand {
     font-family: 'Cedarville Cursive', cursive;
     text-align: center;
 }
 
+/* NAVIGATION */
+
 .navbar-toggler {
     color: #212529;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* BG-IMAGES */
+
+.index-left, .index.right {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .index-left, .index-right {
+        height: 75vh;
+    }
+}
+
+
+.index-left {
+    background: blue;
+}
+
+.index-right {
+    background: green;
 }

@@ -21,6 +21,10 @@ a:hover {
 
 /* NAVIGATION */
 
+.nav-item {
+    font-size: 1.25rem;
+}
+
 .navbar-toggler {
     color: #212529;
 }
@@ -40,7 +44,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .index-left, .index-right {
-        height: 82vh;
+        height: 80vh;
     }
 }
 
@@ -64,5 +68,9 @@ a:hover {
 /* FOOTER */
 
 .copyright {
-    font-size: 0.75rem;
+    font-size: 1rem;
+}
+
+li a i {
+    font-size: 1.25rem;
 }

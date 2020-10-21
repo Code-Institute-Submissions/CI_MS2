@@ -29,12 +29,6 @@ a:hover {
     color: #212529;
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-
 /* BG-IMAGES */
 
 .index-left, .index.right {
@@ -44,7 +38,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .index-left, .index-right {
-        height: 80vh;
+        height: 73vh;
     }
 }
 

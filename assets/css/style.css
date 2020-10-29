@@ -59,6 +59,10 @@ a:hover {
     background-size: cover;
 }
 
+/* TEST MAP FOR CONTACTS */
+
+div#map {min-height: 360px;}
+
 /* FOOTER */
 
 footer {

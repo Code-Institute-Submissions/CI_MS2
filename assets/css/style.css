@@ -65,7 +65,7 @@ a:hover {
 }
 
 
-/* LOCATIONS CALLOUT */
+/* CONTACT CALLOUT */
 
 .callout-container {
     height: 100vh;
@@ -77,7 +77,19 @@ a:hover {
     background-size: cover;
 }
 
-/* TEST MAP FOR CONTACTS */
+/* LOCATIONS */
+.nav-border-bottom {
+    border-bottom: 3px solid #212529;
+}
+
+.location-address {
+    margin-bottom: 0px;
+}
+
+.open-hours {
+    font-size: 0.85rem;
+    margin: 0;
+}
 
 div#map {min-height: 360px;}
 

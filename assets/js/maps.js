@@ -7,20 +7,25 @@ function initMap() {
         }
     });
 
-    var labels = "ABCD"
     var locations = [
-        { lat: 53.346540, lng: -6.259110 },
-        { lat: 53.345620, lng: -6.259172 },
-        { lat: 53.346615, lng: -6.267090 },
-        { lat: 53.330079, lng: -6.268894 }
+        { lat: 53.346540, lng: -6.259110, locationInfo: "info about 1st restaurant" },
+        { lat: 53.345620, lng: -6.259172, locationInfo: "info about 2nd restaurant" },
+        { lat: 53.346615, lng: -6.267090, locationInfo: "info about 3rd restaurant" },
+        { lat: 53.330079, lng: -6.268894, locationInfo: "info about 4th restaurant" }
         ];
 
-var markers = locations.map(function(location, i) {
-    return new google.maps.Marker({
-    position: location,
-    label: labels[i % labels.length]
-    });
-    });
+        var markers = locations.map(function(location, _i) {
+            const infowindow = new google.maps.InfoWindow({
+                content: location.locationInfo,
+            });
+            let marker = new google.maps.Marker({
+                position: location,
+            });
+            marker.addListener("click", () => {
+                infowindow.open(map, marker);
+            });
+            return marker;
+            });
 
 new MarkerClusterer(map, markers, {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
 

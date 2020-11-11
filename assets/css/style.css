@@ -14,7 +14,11 @@ a:hover {
 
 .jumbotron {
     padding: 2rem 2rem;
-    background-color: hsl(38, 100%, 44%);
+    background-color: hsla(38, 64%, 65%, 0.897);
+}
+
+.nav-link.active {
+        color: hsl(38, 100%, 44%);
 }
 
 

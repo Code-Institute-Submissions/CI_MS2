@@ -1,3 +1,5 @@
+// Add & initialize the map
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 7,
@@ -7,11 +9,13 @@ function initMap() {
         }
     });
 
+// Add map markers & location info
+
     var locations = [
-        { lat: 53.346540, lng: -6.259110, locationInfo: "info about 1st restaurant" },
-        { lat: 53.345620, lng: -6.259172, locationInfo: "info about 2nd restaurant" },
-        { lat: 53.346615, lng: -6.267090, locationInfo: "info about 3rd restaurant" },
-        { lat: 53.330079, lng: -6.268894, locationInfo: "info about 4th restaurant" }
+        { lat: 53.346540, lng: -6.259110, locationInfo: "Conifer St, Dublin 2" },
+        { lat: 53.345620, lng: -6.259172, locationInfo: "Church Ave, Dublin 1" },
+        { lat: 53.346615, lng: -6.267090, locationInfo: "Oakmont Rd, Dublin 1" },
+        { lat: 53.330079, lng: -6.268894, locationInfo: "Temple St, Dublin 6" }
         ];
 
         var markers = locations.map(function(location, _i) {
@@ -27,7 +31,11 @@ function initMap() {
             return marker;
             });
 
+// Add marker clusterer
+   
 new MarkerClusterer(map, markers, {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
+
+// Add button to map for geolocation and geolocation functionality
 
 infoWindow = new google.maps.InfoWindow();
 
@@ -36,6 +44,8 @@ infoWindow = new google.maps.InfoWindow();
   locationButton.classList.add("custom-map-control-button");
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
   locationButton.addEventListener("click", () => {
+
+// Attempt geolocation
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -54,6 +64,9 @@ infoWindow = new google.maps.InfoWindow();
         }
       );
     } else {
+
+// No browser support for geolocation
+
       handleLocationError(false, infoWindow, map.getCenter());
     }
   });

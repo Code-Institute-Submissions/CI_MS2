@@ -171,6 +171,8 @@ The Geolocation functionality of the Google Maps utilized for the locations page
 
 Similarly, [the Google code for using markers](https://developers.google.com/maps/documentation/javascript/marker-clustering) was used, although it was customized for the purposes of this site to a larger degree.
 
+The fictitious phone numbers for the business were taken from [this site](https://fakenumber.org/ireland) for fake number generation.
+
 **Content**
 
 Site content was written by the developer.

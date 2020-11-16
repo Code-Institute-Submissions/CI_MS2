@@ -68,7 +68,7 @@ a:hover {
 }
 
 
-/* CONTACT CALLOUT */
+/* CONTACT PAGE */
 
 .callout-container {
     height: 100vh;
@@ -78,6 +78,11 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.contact-form {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 /* LOCATIONS */

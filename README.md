@@ -5,7 +5,6 @@ events across four locations in Dublin. It's a simple responsive and trendy webs
 an opportunity book tables and events and send feedback via email, as well as showing the opening times and locations on an interactive 
 map.
 
-
 ## UX
 
 #### User stories
@@ -54,7 +53,11 @@ Preliminary wireframes were drafted in MS Paint. [Link](#)
 * Responsive on all screen sizes.
 * Each page includes a navigation bar.
 * Each page includes a footer with links to restaurant's social media and copyright information.
-*
+* The main page includes a short description of the business' purpose and buttons to view the menu and contact form.
+* Menu page includes the menu.
+* Contact page includes a functional contact form, as well as guidance as to what the form is best used for.
+* The Loations page includes images of the franchise locations, as well as their address and opening times. This page also includes a 
+functional Google Map that can be used to view the restaurant locations or the user's current location.
 
 **Features To Implement**
 
@@ -102,12 +105,13 @@ W3C CSS Validator [Results](#)
 **Known Issues**
 
 
+
 ## Deployment
 
 **Github Pages**
 
 The project was published on Github Pages with the following steps:
-1. Login to Github and locate the [repository](#)
+1. Login to Github and locate the [repository](https://github.com/ssruoh/CI_MS2)
 2. Locate the Settings button of the repository
 3. Scroll down the Settings page to the Github Pages section
 4. Under Source, select "Branch: master" from the dropdown menu
@@ -118,12 +122,12 @@ The project was published on Github Pages with the following steps:
 
 The copy of the Github repository can be forked to another account for viewing or editing without affecting the original one with the following steps:
 
-1. Login to Github and locate the [repository](#)
+1. Login to Github and locate the [repository](https://github.com/ssruoh/CI_MS2)
 2. On top right, right under the Account menu and Notifications, click on the Fork button. This will create a copy of the repository to your Github account.
 
 **Creating A Local Clone**
 
-1. Login to Github and locate the [repository](#)
+1. Login to Github and locate the [repository](https://github.com/ssruoh/CI_MS2)
 2. Click on the green Code button
 3. Click on the clipboard icon under "Clone with HTTPS" to copy the link
 4. Open Git Bash
@@ -149,3 +153,36 @@ $ git clone https://github.com/ssruoh/CI_MS2
 ## Testing User Requirements In UX section
 
 **First Time Visitors**
+
+
+
+
+## Credits
+
+**Code**
+
+**Bootstrap4**: Various Bootstrap Library resources were used throughout the site.
+
+An altered version of [this solution](https://www.youtube.com/watch?v=bh3UAetYkUI&t=184s) was used for the side-by-side image layout for index.html.
+
+The basic idea for the index.html layout was taken from entry 14. in [this article](https://www.sitebuilderreport.com/inspiration/restaurant-websites) on web design layouts, ‘Zia Sonia.’
+
+The Geolocation functionality of the Google Maps utilized for the locations page relies heavily on [the code provided by Google](https://developers.google.com/maps/documentation/javascript/geolocation#maps_map_geolocation-javascript) for the same functionality.
+
+Similarly, [the Google code for using markers](https://developers.google.com/maps/documentation/javascript/marker-clustering) was used, although it was customized for the purposes of this site to a larger degree.
+
+**Content**
+
+Site content was written by the developer.
+
+**Media**
+
+The images used for the site were obtained from Google Images.
+
+**Acknowledgments**
+
+Code Institute Tutors for their support.
+
+My Mentor for ideas and feedback.
+
+Friends for helping to test the site.

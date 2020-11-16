@@ -86,6 +86,7 @@ a:hover {
 }
 
 /* LOCATIONS */
+
 .nav-border-bottom {
     border-bottom: 3px solid #212529;
 }
@@ -100,6 +101,10 @@ a:hover {
 }
 
 div#map {min-height: 360px;}
+
+p a {
+    color: hsl(38, 100%, 44%);
+}
 
 /* MENU */
 

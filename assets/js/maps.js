@@ -12,10 +12,10 @@ function initMap() {
 // Add map markers & location info
 
     var locations = [
-        { lat: 53.346540, lng: -6.259110, locationInfo: "Conifer St, Dublin 2" },
-        { lat: 53.345620, lng: -6.259172, locationInfo: "Church Ave, Dublin 1" },
-        { lat: 53.346615, lng: -6.267090, locationInfo: "Oakmont Rd, Dublin 1" },
-        { lat: 53.330079, lng: -6.268894, locationInfo: "Temple St, Dublin 6" }
+        { lat: 53.346540, lng: -6.259110, locationInfo: "La Petite Sirène, Conifer St, Dublin 2" },
+        { lat: 53.345620, lng: -6.259172, locationInfo: "La Petite Sirène, Church Ave, Dublin 1" },
+        { lat: 53.346615, lng: -6.267090, locationInfo: "La Petite Sirène, Oakmont Rd, Dublin 1" },
+        { lat: 53.330079, lng: -6.268894, locationInfo: "La Petite Sirène, Temple St, Dublin 6" }
         ];
 
         var markers = locations.map(function(location, _i) {

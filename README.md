@@ -12,11 +12,14 @@ map.
 **First Visitor Goals**
 
 * First time visitors want to understand what the service offers, as well as where and when.
-* First time visitors want to easily find the information they need, such as restaurant locations and opening times.
+* First time visitors want to easily find the information they need, such as restaurant locations.
+* First time visitors want to know what the quality of the service is like.
 
 **Returning Visitor Goals**
 
-* Returning visitors want to check the current menu, make new bookings or leave feedback.
+* Returning visitors want to check the current menu.
+* Returning visitors want to check information such as opening times and telephone numbers.
+* Returning visitors want to make reservations and leave feedback.
 
 ** **
 

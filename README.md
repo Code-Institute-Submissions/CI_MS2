@@ -49,7 +49,7 @@ of the business on the Locations page.
 
 ## Wireframes
 
-Preliminary wireframes were drafted in MS Paint. [Link](#)
+Preliminary wireframes were drafted in MS Paint. [Link](https://github.com/ssruoh/CI_MS2/blob/master/La%20Petite%20Sirene%20Wireframes.pdf)
 
 ## Features
 
@@ -59,7 +59,7 @@ Preliminary wireframes were drafted in MS Paint. [Link](#)
 * The main page includes a short description of the business' purpose and buttons to view the menu and contact form.
 * Menu page includes the menu.
 * Contact page includes a functional contact form, as well as guidance as to what the form is best used for.
-* The Loations page includes images of the franchise locations, as well as their address and opening times. This page also includes a 
+* The Locations page includes images of the franchise locations, as well as their address and opening times. This page also includes a 
 functional Google Map that can be used to view the restaurant locations or the user's current location.
 
 **Features To Implement**
@@ -105,9 +105,26 @@ W3C Markup Validator [Results](#)
 
 W3C CSS Validator [Results](#)
 
+The site was also tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer browsers.
+The website has been viewed on devices with varying screen sizes, such as Iphone 8, Samsung Galaxy J6, iPad, as well as 
+desktop and laptop computer screens.
+
 **Known Issues**
 
+* (General) The contact form redirect functionality appears to not work over Github Pages, although it works fine 
+from the Gitpod launch version. This seems to be more due to how Github Pages are hosted than a bug, however.
 
+* (General) The contact form 'Contact us' field has some spacing in the field by default when page is loaded.
+
+Internet Explorer 11:
+
+* (IE11) Background image on Contact page seems choppy when scrolling down.
+
+* (IE11) Google Maps functionality [does not seem to work](#), in our out of Compatability Mode.
+
+* (iPad) The margins of the left split [hide some corner text](#) on the index page clip into text content.
+
+* (iPad) Some of the menu columns [settle rather unevenly.](#)
 
 ## Deployment
 

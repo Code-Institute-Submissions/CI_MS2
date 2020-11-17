@@ -9,10 +9,13 @@ function sendMail(contactForm) {
     .then(
 
 // If sending email is successful, browser alert and redirect to index.html
+
         function(response) {
             alert("Sent successfully", response);
         window.location.replace("/")},
+
 // If sending email fails, browser alert error message
+
         function(error) {
             alert("Failed to send", error);
         });

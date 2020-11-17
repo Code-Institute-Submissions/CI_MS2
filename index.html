@@ -11,117 +11,99 @@
 </head>
 <body>
 
-<!-----BRAND----->
+<!-- BRAND -->
+
 <div class="container-fluid">
-<div class="row">
-<div class="col">
-<h1 id="brand" class="mt-3 mb-1"><a href="index.html">La Petite Sirène</a></h1>
-</div>
-</div>
+    <div class="row">
+        <div class="col">
+            <h1 id="brand" class="mt-3 mb-1"><a href="index.html">La Petite Sirène</a></h1>
+        </div>
+    </div>
 </div>
 
-<!------NAVIGATION-------->
-<!-------NOTE: Dropdown button works now, but navigation options don't show. Fix ------->
+<!-- NAVIGATION -->
 
 <nav class="navbar navbar-expand-sm mb-2">
+	<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span></button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav nav-fill w-100">
+			<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link active" href="index.html">Home</a></li>
+			<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="menu.html">Menu</a></li>
+			<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="contact.html">Contact</a></li>
+			<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="locations.html">Locations</a></li>
+		</ul>
+	</div>
+</nav>
 
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav nav-fill w-100">
-				<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link active" href="index.html">Home</a></li>
-				<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="menu.html">Menu</a></li>
-				<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="contact.html">Contact</a></li>
-				<li class="nav-item ml-3 mr-3 text-uppercase"><a class="nav-link" href="locations.html">Locations</a></li>
-			</ul>
-		</div>
-	</nav>
-
-<!-----BG-IMAGES------------>
+<!-- BG-IMAGES -->
 
 <div class="container-fluid">
-<div class="row no-gutters">
+    <div class="row no-gutters">
+        <div class="col-md-6 no-gutters">
+            <div class="index-left d-flex justify-content-center align-items-center">
+                <p class="text-center">Bienvenue! We are a French restaurant franchise with multiple locations in the heart of Dublin.
+                <br><br><a class="btn btn-lg btn-outline-dark" href="menu.html" role="button">Browse our menu here!</a><br><br>
 
-    <div class="col-md-6 no-gutters">
-
-        <div class="index-left d-flex justify-content-center align-items-center">
-            <p class="text-center">Bienvenue! We are a French restaurant franchise with multiple locations in the heart of Dublin.
-            <br><br><a class="btn btn-lg btn-outline-dark" href="menu.html" role="button">Browse our menu here!</a><br><br>
-
-            If you'd like to make a reservation, arrange an event at one of our venues or simply leave feedback, you can do it by clicking the button below.
-            <br><br><a class="btn btn-lg btn-outline-dark" href="contact.html" role="button">Visit our Contact page!</a>
-            </p>
-
+                If you'd like to make a reservation, arrange an event at one of our venues or simply leave feedback, you can do it by clicking the button below.
+                <br><br><a class="btn btn-lg btn-outline-dark" href="contact.html" role="button">Visit our Contact page!</a>
+                </p>
+             </div>
         </div>
 
-    </div>
+        <div class="col-md-6 no-gutters">
+            <div class="index-right d-flex justify-content-center align-items-center">
 
-    <div class="col-md-6 no-gutters">
-
-        <div class="index-right d-flex justify-content-center align-items-center">
-
-            
+            </div>
         </div>
-
     </div>
-
-</div>
 </div>
 
-<!--------FOOTER----------->
+<!-- FOOTER -->
 
 <footer class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-sm-6 text-center">
 
-<div class="row">
+            <ul class="list-inline">
+                <li class="list-inline-item ml-3 mr-3">
+                    <a target="_blank" href="https://www.instagram.com/?hl=en">
+				        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+				        <span class="sr-only">Instagram</span>
 
-    <div class="col-sm-6 text-center">
-
-        <ul class="list-inline">
-            <li class="list-inline-item ml-3 mr-3">
-                <a target="_blank" href="https://www.instagram.com/?hl=en">
-
-				<i class="fab fa-instagram-square" aria-hidden="true"></i>
-				<span class="sr-only">Instagram</span>
-
-                </a>
-            </li>
+                    </a>
+                </li>
         
-            <li class="list-inline-item ml-3 mr-3">
-                <a target="_blank" href="https://www.facebook.com/">
+                <li class="list-inline-item ml-3 mr-3">
+                    <a target="_blank" href="https://www.facebook.com/">
+				        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+				        <span class="sr-only">Facebook</span>
 
-				<i class="fab fa-facebook-square" aria-hidden="true"></i>
-				<span class="sr-only">Facebook</span>
+                    </a>
+                </li>
 
-                </a>
-            </li>
+                <li class="list-inline-item  ml-3 mr-3">
+                    <a target="_blank" href="https://twitter.com/">
 
-            <li class="list-inline-item  ml-3 mr-3">
-                <a target="_blank" href="https://twitter.com/">
+				        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+				        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
 
-				<i class="fab fa-twitter-square" aria-hidden="true"></i>
-				<span class="sr-only">Twitter</span>
-
-                </a>
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div class="col-sm-6">
-
-        <div class="text-center">
-
-        <p class="copyright"><span>&#169;</span> 2020 | La Petite Sirène </p>
-
+            </ul>
         </div>
 
+        <div class="col-sm-6">
+            <div class="text-center">
+                <p class="copyright"><span>&#169;</span> 2020 | La Petite Sirène </p>
+            </div>
+        </div>
     </div>
 
-</div>
-
 </footer>
+
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>

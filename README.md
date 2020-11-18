@@ -139,7 +139,7 @@ The project was published on Github Pages with the following steps:
 3. Scroll down the Settings page to the Github Pages section
 4. Under Source, select "Branch: master" from the dropdown menu
 5. Click Save, the page will refresh
-6. Scroll down to the Github Pages section again and locate the published link to the [site](#)
+6. Scroll down to the Github Pages section again and locate the published link to the [site](https://ssruoh.github.io/CI_MS2/)
 
 **Forking The Repository**
 
@@ -209,7 +209,7 @@ user to the menu is on the landing page, and the menu can be navigated to from a
 > Returning visitors want to make reservations and leave feedback or host an event.
 
 * The landing page has a large button to the contact page, and clearly states that it can be used for 
-various queries such as making reservations, leaving feedback or enquiring about hosting an event. On the contact page, 
+various queries such as making reservations, leaving feedback or enquiring about hosting events. On the contact page, 
 the user is also informed that reservations can be made by telephone, and that the phone numbers for each branch can be 
 found on the Locations page. An accompanying link to the Locations page is also provided.
 
@@ -217,7 +217,7 @@ found on the Locations page. An accompanying link to the Locations page is also 
 
 * The restaurant has several locations, meaning each location has information specific to it. A link to the Locations page can be 
 accessed from any part of the site via the navigation bar. This page collates all this information, including addresses and telephone numbers. 
-The page also provides an accompanying map where users can view the location, and even compare their distance to any of them. 
+The page also provides an accompanying map where users can view the location, and even view their own location. 
 
 ## Credits
 
@@ -253,6 +253,6 @@ The images used for the site were obtained from Google Images.
 
 Code Institute Tutors for their support.
 
-My Mentor for ideas and feedback.
+My Mentor for helpful ideas and feedback.
 
-Friends for helping to test the site.
+My friends for assisting with testing the site.

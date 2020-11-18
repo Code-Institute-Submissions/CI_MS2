@@ -1,3 +1,5 @@
+// This section largely utilizes code provided by Google for the API
+
 // Add & initialize the map
 
 function initMap() {

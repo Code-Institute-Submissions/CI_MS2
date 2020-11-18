@@ -225,21 +225,25 @@ The page also provides an accompanying map where users can view the location, an
 
 **Bootstrap4**: Various Bootstrap Library resources were used throughout the site.
 
-An altered version of [this solution](https://www.youtube.com/watch?v=bh3UAetYkUI&t=184s) was used for the side-by-side image layout for index.html.
+**EmailJS**: Used to implement the contact form.
 
-The basic idea for the index.html layout was taken from entry 14. in [this article](https://www.sitebuilderreport.com/inspiration/restaurant-websites) on web design layouts, ‘Zia Sonia.’
+**Google Maps**: Used to implement the map on Locations page.
 
 The Geolocation functionality of the Google Maps utilized for the locations page relies heavily on [the code provided by Google](https://developers.google.com/maps/documentation/javascript/geolocation#maps_map_geolocation-javascript) for the same functionality.
 
 Similarly, [the Google code for using markers](https://developers.google.com/maps/documentation/javascript/marker-clustering) was used, although it was customized for the purposes of this site to a larger degree.
 
-The fictitious phone numbers for the business were taken from [this site](https://fakenumber.org/ireland) for fake number generation.
+An altered version of [this solution](https://www.youtube.com/watch?v=bh3UAetYkUI&t=184s) was used for the side-by-side image layout for index.html.
 
 **Content**
 
 Site content was written by the developer, with the exception of the Menu. Menu items were taken from the 
 menus of French restaurants [Chez Max](https://deliveroo.ie/menu/dublin/st-stephens-green/chez-max?utm_medium=affiliate&utm_source=google_maps_link), 
 [La Maison](http://lamaisondublin.com/menu/) and [Excuse My French](https://www.excusemyfrench-nyc.com/).
+
+The basic idea for the index.html layout was taken from entry 14. in [this article](https://www.sitebuilderreport.com/inspiration/restaurant-websites) on web design layouts, ‘Zia Sonia.’
+
+The fictitious phone numbers for the business were taken from [this site](https://fakenumber.org/ireland) for fake number generation.
 
 **Media**
 

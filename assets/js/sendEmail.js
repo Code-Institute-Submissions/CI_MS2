@@ -1,3 +1,4 @@
+// Code provided mostly by EmailJS for their API, with some modifications to suit this site's purposes
 // Enable contact form
 
 function sendMail(contactForm) {

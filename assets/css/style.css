@@ -38,7 +38,7 @@ a:hover {
     color: #212529;
 }
 
-/* INDEX BG-IMAGE */
+/* INDEX BG-IMAGE, Code is a modified version of Mr Digital's guide on Youtube for achieving the side-by-side effect */
 
 .index-left, .index.right {
     height: 50vh;

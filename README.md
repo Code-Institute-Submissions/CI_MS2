@@ -1,7 +1,7 @@
 # La Petite Sirène Website
 
 This is the website of a French restaurant franchise. The business serves relatively expensive food and also hosts 
-events across four locations in Dublin. It's a simple responsive and trendy website that provides visitors with the current menu, 
+events across four locations in Dublin. It's a simple, responsive and trendy website that provides visitors with the current menu, 
 an opportunity book tables and events and send feedback via email, as well as showing the opening times and locations on an interactive 
 map.
 
@@ -11,15 +11,15 @@ map.
 
 **First Visitor Goals**
 
-* First time visitors want to understand what the service offers, as well as where and when.
-* First time visitors want to easily find the information they need, such as restaurant locations.
+* First time visitors want to understand what the service offers.
+* First time visitors want to be able to easily navigate the site and find the information they need.
 * First time visitors want to know what the quality of the service is like.
 
 **Returning Visitor Goals**
 
 * Returning visitors want to check the current menu.
-* Returning visitors want to check information such as opening times and telephone numbers.
-* Returning visitors want to make reservations and leave feedback.
+* Returning visitors want to make reservations and leave feedback or host an event.
+* Returning visitors want to check information pertaining to specific locations of the franchise.
 
 ** **
 
@@ -94,6 +94,10 @@ Google reviews for a selected marker could be one option.
 * Used for version control via the Gitpod terminal.
 6. Github:
 * Used to store the website’s code after pushing from Git.
+7. EmailJS:
+* Used to maintain a contact form for visitors to make queries.
+8. Google Maps:
+* Used to provide an interactive map, complete with custom locations, information about them and geolocation.
 
 ** **
 
@@ -101,9 +105,9 @@ Google reviews for a selected marker could be one option.
 
 The W3C Markup Validator and W3C CSS Validator were used to ensure there are no syntax errors.
 
-W3C Markup Validator [Results](#)
+W3C Markup Validator [Results](https://github.com/ssruoh/CI_MS2/tree/master/testing_images/w3c_validation_results)
 
-W3C CSS Validator [Results](#)
+W3C CSS Validator [Results](https://github.com/ssruoh/CI_MS2/tree/master/testing_images/w3c_validation_results)
 
 The site was also tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer browsers.
 The website has been viewed on devices with varying screen sizes, such as Iphone 8, Samsung Galaxy J6, iPad, as well as 
@@ -116,15 +120,14 @@ from the Gitpod launch version. This seems to be more due to how Github Pages ar
 
 * (General) The contact form 'Contact us' field has some spacing in the field by default when page is loaded.
 
-Internet Explorer 11:
-
 * (IE11) Background image on Contact page seems choppy when scrolling down.
 
-* (IE11) Google Maps functionality [does not seem to work](#), in our out of Compatability Mode.
+* (IE11) Google Maps functionality [does not seem to work](https://github.com/ssruoh/CI_MS2/blob/master/testing_images/IE11-GMaps-bug.jpg), in our out of Compatability Mode.
 
-* (iPad) The margins of the left split [hide some corner text](#) on the index page clip into text content.
+* (iPad) The text on the left split of the index page [have little to no margin](https://github.com/ssruoh/CI_MS2/blob/master/testing_images/iPad-index-margins.jpg). This is difficult to fix due to how the split image 
+effect is achieved.
 
-* (iPad) Some of the menu columns [settle rather unevenly.](#)
+* (iPad) Some of the menu columns [settle rather unevenly.](https://github.com/ssruoh/CI_MS2/blob/master/testing_images/iPad-menu-columns.jpg)
 
 ## Deployment
 
@@ -174,8 +177,47 @@ $ git clone https://github.com/ssruoh/CI_MS2
 
 **First Time Visitors**
 
+> First time visitors want to understand what the service offers.
 
+* When loading the site, the visitor is presented a split image. The first one, reserved for text, 
+explains what the restaurant is like and where they operate. They are also told what kinds of services they offer. 
+The second half features a stylish black and white image that gives the visitor an idea what the premises 
+look like.
 
+> First time visitors want to be able to easily navigate the site and find the information they need.
+
+* The landing page provides large buttons to view the things people visiting such a site would likely 
+be after: the menu, and a contact page link where they can make a reservation or enquire about hosting an 
+event at the franchise. All of content of the site is clearly marked in a simple, well presented navigation 
+bar should they require something that is not available right on the landing page, such as location information 
+under LOCATIONS.
+
+> First time visitors want to know what the quality of the service is like.
+
+* Restaurant reviews and experiences are typically collated at external sources. To prevent cluttering and 
+preserve the minimalistic but stylish appearance of the site, reviews, images of the food and the like 
+would be found at the social media of the restaurant. The footer found on each page contains links 
+to the restaurant's social media presence.
+
+**Returning Visitors**
+
+> Returning visitors want to check the current menu.
+
+* The menu changes often, and the site makes checking the current one easy. A large button that directs the 
+user to the menu is on the landing page, and the menu can be navigated to from any page via the navigation bar.
+
+> Returning visitors want to make reservations and leave feedback or host an event.
+
+* The landing page has a large button to the contact page, and clearly states that it can be used for 
+various queries such as making reservations, leaving feedback or enquiring about hosting an event. On the contact page, 
+the user is also informed that reservations can be made by telephone, and that the phone numbers for each branch can be 
+found on the Locations page. An accompanying link to the Locations page is also provided.
+
+> Returning visitors want to check information pertaining to specific locations of the franchise.
+
+* The restaurant has several locations, meaning each location has information specific to it. A link to the Locations page can be 
+accessed from any part of the site via the navigation bar. This page collates all this information, including addresses and telephone numbers. 
+The page also provides an accompanying map where users can view the location, and even compare their distance to any of them. 
 
 ## Credits
 
@@ -195,7 +237,9 @@ The fictitious phone numbers for the business were taken from [this site](https:
 
 **Content**
 
-Site content was written by the developer.
+Site content was written by the developer, with the exception of the Menu. Menu items were taken from the 
+menus of French restaurants [Chez Max](https://deliveroo.ie/menu/dublin/st-stephens-green/chez-max?utm_medium=affiliate&utm_source=google_maps_link), 
+[La Maison](http://lamaisondublin.com/menu/) and [Excuse My French](https://www.excusemyfrench-nyc.com/).
 
 **Media**
 

@@ -2,7 +2,7 @@
 
 This is the website of a French restaurant franchise. The business serves relatively expensive food and also hosts 
 events across four locations in Dublin. It's a simple, responsive and trendy website that provides visitors with the current menu, 
-an opportunity book tables and events and send feedback via email, as well as showing the opening times and locations on an interactive 
+an opportunity to book tables and events and send feedback via email, as well as showing the opening times and locations on an interactive 
 map.
 
 ## UX
@@ -216,14 +216,14 @@ found on the Locations page. An accompanying link to the Locations page is also 
 > Returning visitors want to check information pertaining to specific locations of the franchise.
 
 * The restaurant has several locations, meaning each location has information specific to it. A link to the Locations page can be 
-accessed from any part of the site via the navigation bar. This page collates all this information, including addresses and telephone numbers. 
+accessed from any part of the site via the navigation bar. This page collates all this information, including addresses, opening times and telephone numbers. 
 The page also provides an accompanying map where users can view the location, and even view their own location. 
 
 ## Credits
 
 **Code**
 
-**Bootstrap4**: Various Bootstrap Library resources were used throughout the site.
+**Bootstrap4**: Various Bootstrap Library resources were used to create the site.
 
 **EmailJS**: Used to implement the contact form.
 
